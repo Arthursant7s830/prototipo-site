@@ -71,6 +71,18 @@ header>p {
     padding-left: 10px;
 }
 
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
+
+nav ul li {
+    white-space: nowrap;
+}
+
 main {
     background-color: #ffff;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.223);
