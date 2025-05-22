@@ -16,9 +16,11 @@ body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
-a.externo::after{
+
+a.externo::after {
     content: '\00A0\1F517\ ';
 }
+
 :root {
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
@@ -66,7 +68,7 @@ header>p {
 
 main {
     background-color: #ffff;
-    box-shadow: 2px 2px 8px  rgba(0, 0, 0, 0.223);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.223);
     min-width: 300px;
     max-width: 1000px;
     padding: 30px 20px 30px 20px;
@@ -115,20 +117,22 @@ main strong {
     font-weight: bold;
     padding: 2px 6px;
 }
-div.video{
+
+div.video {
     background-color: var(--cor5);
-    margin: 0px -20px  30px -31px;
-    padding: 20px ;
+    margin: 0px -20px 30px -31px;
+    padding: 20px;
     padding-bottom: 59%;
     position: relative;
-    
+
 }
-div.video>iframe{
-     position: absolute;
-     top: 5%;
-     left: 5%;
-     width: 90%;
-     height: 90%;
+
+div.video>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 nav {
@@ -152,8 +156,9 @@ nav>a:hover {
     color: var(--cor5);
     border-radius: 5px 5px 0px 0px;
 }
-article>p{
-     text-align: justify;
+
+article>p {
+    text-align: justify;
 }
 
 article>h1 {
@@ -194,7 +199,12 @@ aside {
     margin: auto;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.277) ;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.277);
+}
+
+aside>p {
+    line-height: 1;
+    text-align: justify;
 }
 
 footer {
@@ -203,5 +213,22 @@ footer {
     text-align: center;
     font-size: 0.8em;
     font-weight: bold;
-    padding: 5px;
+    padding: 20px;
+}
+
+footer>p#follow {
+    font-size: 1.2em;
+}
+
+footer>img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    display: ;
+
+}
+
+.icon-face:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
