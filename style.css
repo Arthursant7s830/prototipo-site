@@ -42,6 +42,7 @@ a.externo::after {
 
 header {
     min-height: 150px;
+    width: 100vw;
     background-image: linear-gradient(to bottom, #2fa866, #063d1e);
     text-align: center;
     padding-top: 40px;
@@ -229,6 +230,7 @@ footer {
     color: #ffff;
     text-align: center;
     font-weight: bold;
+    width: 100vw;
     padding: 40px;
 }
 
